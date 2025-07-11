@@ -44,6 +44,19 @@ a ,li {
      
 
 }
+
+.mean-btn:hover{
+  border: 2px solid hwb(0 95% 3%);
+  background-color: #040404;
+
+   
+
+    
+
+}
+.mean-btn a:hover{
+color: #FFFFFF;
+}
 .nav-ber{
     display: flex;
     justify-content: space-between;
@@ -76,6 +89,11 @@ header{
 }
 .button-two{
     padding: 36px ;
+}
+
+.button-two a:hover{
+    color: #FFFFFF;
+    background-color: #000000;
 }
 .button-two a{
     height: 48px;
@@ -317,6 +335,12 @@ color: rgba(0, 0, 0, 1);
     align-items: center;
     justify-content: center;
 }
+
+.massage-section .last-btn a:hover{
+     border: 2px solid hwb(0 95% 3%);
+  background-color: #040404;
+
+}
 .message-area{
     gap: 50px;
     padding: 71px 0;
@@ -382,9 +406,12 @@ li ,a{
 }
 
 .footer-nav a:hover{
-    background-color: #4E47FF;
-    border-radius: 16px;
-    color: #FFFFFF;
-    padding: 10px 15px;
-    transition: 0.5s;
+   border: 2px solid hwb(0 95% 3%);
+  background-color: #040404;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+
 }
