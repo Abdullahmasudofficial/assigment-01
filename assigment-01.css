@@ -337,3 +337,54 @@ textarea::placeholder{
 
 
 /* mean-section-done */
+footer{
+    width: 100%;
+    height: 428px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer{
+    padding: 100px 0;
+}
+
+.footer-logo h1{
+font-size: 100px;
+font-weight: 900;
+padding: 0;
+margin: 0;
+color: #4E47FF;
+}
+
+.footer-nav ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+li ,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.footer-drescription ,.footer-nav{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8987A1;
+}
+
+.footer-nav a{
+    color: #8987A1;
+}
+
+.footer-nav a:hover{
+    background-color: #4E47FF;
+    border-radius: 16px;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
